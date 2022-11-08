@@ -3,6 +3,8 @@
   "version": "1.0.3",
   "description": "QRCodeJS is a javascript library for making QRCode. It has no dependencies, is cross-browser and using HTML5 Canvas. This project is a fork by Glaze, from KeeeX, which originally forked it from davidshimjs.",
   "main": "qrcode.min.js",
+  "typings": "./qrcode.d.ts",
+  "className": "QRCode",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
