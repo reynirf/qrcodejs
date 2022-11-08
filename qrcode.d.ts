@@ -1,7 +1,7 @@
 declare class QRCode {
-  constructor()
+  constructor() {}
   makeImage(): void;
-  makeCode(): void;
+  makeCode(text: string): void;
   clear(): void;
 }
 
